@@ -1,7 +1,7 @@
 /* Estilos generales */
 
 body {
-  font-family: sans-serif;
+  font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 5px;
   padding: 5px;
 }
@@ -57,7 +57,12 @@ nav a {
 }
 
 nav a:hover {
-  color: wheat;
+  color: beige;
+  background-color: rgb(131, 19, 175);
+  border: 3px solid black;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 h1 {
@@ -75,6 +80,7 @@ h2 {
 }
 
 .titulo-calzado {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: cadetblue;
   padding: 10px;
   border: 3px solid black;
@@ -156,6 +162,10 @@ footer {
       width: 22%; 
       margin: 0 5px; 
       float: left;
+  }
+
+  .titulo-calzado{
+    font-size: 35px;
   }
 }
 
