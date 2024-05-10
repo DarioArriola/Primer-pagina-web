@@ -141,7 +141,7 @@ footer {
     background-color: rgb(162, 235, 216);
   }
   .logo img {
-      height: 120px; /* Ajusta el tamaño del logo para pantallas de computadora */
+      height: 120px; 
   }
 
   nav {
@@ -149,12 +149,12 @@ footer {
   }
 
   nav a {
-      padding: 15px 20px; /* Ajusta el espaciado de los enlaces en pantallas de computadora */
+      padding: 15px 20px; 
   }
 
   .producto {
-      width: 22%; /* Ajusta el ancho de los productos para pantallas de computadora */
-      margin: 0 5px; /* Ajusta el margen horizontal de los productos */
+      width: 22%; 
+      margin: 0 5px; 
       float: left;
   }
 }
@@ -172,7 +172,7 @@ footer {
   }
 
   .logo img {
-      height: 80px; /* Ajusta el tamaño del logo para tablet */
+      height: 80px; 
   }
 
   nav {
@@ -186,11 +186,11 @@ footer {
 
   .subsecciones {
       flex-direction: column;
-      align-items: center; /* Centra los productos */
+      align-items: center; 
   }
 
   .producto {
-      width: 75%; /* Ajusta el ancho de los productos para tablet */
+      width: 75%; 
       margin: 5px;
       border: 3px solid rgb(228, 79, 10);
   }
@@ -210,7 +210,7 @@ footer {
   }
 
   .logo img {
-      height: 60px; /* Ajusta el tamaño del logo para teléfono móvil */
+      height: 60px; 
   }
 
   nav {
@@ -218,12 +218,12 @@ footer {
   }
 
   nav a {
-      padding: 10px; /* Ajusta el espaciado de los enlaces en teléfono móvil */
+      padding: 10px; 
   }
 
   .producto {
-      width: 100%; /* Los productos ocuparán todo el ancho en teléfono móvil */
-      margin: 5px 0; /* Ajusta el margen vertical de los productos */
+      width: 100%; 
+      margin: 5px 0; 
       border: 3px solid  rgb(80, 192, 52);
   }
 
