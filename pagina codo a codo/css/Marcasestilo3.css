@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flexbox {
+    display: flex;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(245, 247, 247);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 60px;
+    justify-content:space-between;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: wheat;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+   
+}
+.slider-box {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+
+}
+.texto {
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: #f5f0f0;
+
+}
+
+.texto h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% { margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+@media(max-width:991px){
+
+    body {
+        padding: 30px;
+    }
+
+    .slider-box {
+        width: 100%;
+    }
+
+    .texto {
+        top: 50px;
+        padding: 0;
+    }
+    .texto h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .texto p {
+        font-size: 15px;
+    }
+
+}
+
+.seccion{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px;
+}
