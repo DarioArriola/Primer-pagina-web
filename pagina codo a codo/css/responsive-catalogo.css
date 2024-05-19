@@ -128,6 +128,7 @@ h2 {
   background-color: rgba(14, 14, 236, 0.897);
   color: #fff;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 /* FOOTER */
@@ -144,7 +145,7 @@ footer {
 
 @media (min-width: 769px) {
   body{
-    background-color: rgb(162, 235, 216);
+    background-color: black;
   }
   .logo img {
       height: 120px; 
