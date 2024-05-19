@@ -41,3 +41,34 @@ nav a:hover{
         padding: 10px 0px;
     }
 }
+
+/* INICIO BANNER */
+.banner {
+    display: flex;
+    aspect-ratio: 16/9;
+    background-image: url("https://todoshoes.com.ar/wp-content/uploads/2021/12/Ibiza-trendy-moda-fashion-Histericomplements-and-Shoes-slider-768x360.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    animation: banner 4s infinite;
+}
+
+.banner__title {
+    font-size: 48px;
+    font-style: oblique;
+    color: white;
+}
+
+@keyframes banner {
+    from {
+        background-size: 100% 100%;
+    }
+
+    to {
+        background-size: 200% 200%;
+    }
+}
+
+/* FIN BANNER */
