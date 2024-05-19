@@ -2,12 +2,18 @@
 
 (1). El sitio web debe poseer al menos 4 páginas HTML o 4 secciones si se trata
 de un sitio One Page.
-    - catalogo.html (pk)
+    - catalogo.html (ok)
+    - marcas.html (ok)
+    - formulario.html(ok)
+    - quienessomos.httml -> COMPLETAR
+    - index.html -> COMPLETAR
 
 (2). El sitio web debe incluir un formulario de contacto, con al menos 5
 campos que incluya (un checkbox o radiobutton), un select y una
 imagen, con validación realizada mediante JavaScript para que los
 campos sean obligatorios.
+    - Formulario completo (ok)
+    - Javascript para validaciones (ok)
 
 (3). Tener al menos una página totalmente responsive con mínimo 3
 puntos de corte con media querys para 3 tamaños de dispositivos
@@ -16,9 +22,10 @@ puntos de corte con media querys para 3 tamaños de dispositivos
 
 (4). Utilizar al menos una animación, transformación o una transición.
     - transiciones (ok)
+    - transformaciones (ok)
 
 (5). Poseer una estructura HTML maquetada con Flexbox y/o Grid.
-    - catalogo (ok)
+    - catalogo.html (ok)
 
 (6). Se considerará la presentación general del proyecto, la legibilidad 
 del mismo, la navegación sin llegar a puntos de no retorno, la optimización 
@@ -27,6 +34,8 @@ de imagenes para la web y el uso de favicon
 
 (7). El trabajo práctico deberá subirse a un servidor online y
 compartirse mediante un repositorio de Git. (Mandatorio)
+    - repositorio creado.
+    - agregar a todos los colaboradores
 
 (8). La página deberá subirse a un servidor on-line para poder ser navegada por 
 el Docente. Ejemplo: Netlify o similar. (Mandatorio)
