@@ -72,3 +72,41 @@ nav a:hover{
 }
 
 /* FIN BANNER */
+
+/*INICIO FOOTER*/ 
+footer {
+    background-color: cadetblue;
+    text-align: center;
+    color:black;
+    padding: 10px;
+  }
+
+.redes {
+    background-color: cadetblue;
+    padding: 24px;
+} 
+.redes p {
+color: black;
+font-size: 24px;
+text-align: center;
+}
+.redes ul {
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+    width: max-content;
+    padding: 0;
+}
+.redes li {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+.redes a {
+    color: black;
+}
+.redes a:hover{
+    color: white;
+    transition: color 0.5s;
+}
+/*FIN FOOTER*/

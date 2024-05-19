@@ -131,3 +131,10 @@ body{
     justify-content: space-between;
     margin: 200px;
 }
+
+footer {
+    background-color: cadetblue;
+    text-align: center;
+    color:black;
+    padding: 10px;
+  }
