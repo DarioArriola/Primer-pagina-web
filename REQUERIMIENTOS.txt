@@ -4,9 +4,10 @@
 de un sitio One Page.
     - catalogo.html (ok)
     - marcas.html (ok)
-    - formulario.html(ok)
-    - quienessomos.httml -> COMPLETAR
-    - index.html -> COMPLETAR
+    - formulario.html (ok)
+    - quienessomos.httml (ok)
+    - index.html (ok)
+    - comocuidarnuestrosproductos.html (ok)
 
 (2). El sitio web debe incluir un formulario de contacto, con al menos 5
 campos que incluya (un checkbox o radiobutton), un select y una
@@ -31,11 +32,13 @@ puntos de corte con media querys para 3 tamaños de dispositivos
 del mismo, la navegación sin llegar a puntos de no retorno, la optimización 
 de imagenes para la web y el uso de favicon
     - uso de favicon (ok)
+    - leginilidad (ok)
+    - sin puntos ciegos (ok)
 
 (7). El trabajo práctico deberá subirse a un servidor online y
 compartirse mediante un repositorio de Git. (Mandatorio)
-    - repositorio creado.
-    - agregar a todos los colaboradores
+    - repositorio creado (ok)
+    - repositorio compartido (ok)
 
 (8). La página deberá subirse a un servidor on-line para poder ser navegada por 
 el Docente. Ejemplo: Netlify o similar. (Mandatorio)
@@ -43,8 +46,10 @@ el Docente. Ejemplo: Netlify o similar. (Mandatorio)
 (9). El sitio web debe estar estructurado utilizando etiquetas
 semánticas HTML correctamente. Debe pasar la validación
 de https://validator.w3.org/ sin errores. (Mandatorio)
-    - catalogo, formulario, index (ok)
+    - etiquetas semánticas (ok)
 
 (10). Utilizar iframes y/o íconos de FontAwesome y/o fuentes locales o bien
 de Google Fonts.Es optativo incluir algún elemento de Bootstrap.
     - google fonts (ok)
+    - íconos FontAwesome (ok)
+    - botones bootstrap (ok)
