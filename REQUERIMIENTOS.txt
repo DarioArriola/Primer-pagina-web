@@ -42,6 +42,8 @@ compartirse mediante un repositorio de Git. (Mandatorio)
 
 (8). La página deberá subirse a un servidor on-line para poder ser navegada por 
 el Docente. Ejemplo: Netlify o similar. (Mandatorio)
+    - página on-line (ok) -> (netlify)
+    - link: https://sweet-pothos-ec59a6.netlify.app/
 
 (9). El sitio web debe estar estructurado utilizando etiquetas
 semánticas HTML correctamente. Debe pasar la validación
